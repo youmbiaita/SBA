@@ -1,0 +1,57 @@
+
+header {
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+.container {
+    border: 2px solid black;
+    padding: 10px;
+    margin: auto;
+    width: 700px;
+}
+
+.container > h1 {
+    text-align: center;
+}
+
+nav {
+  background-color: green;
+  height: 50px;
+  margin-top: 0;   
+}
+nav > a {
+    color: white;
+    transition: width 2s;
+    transition-delay: 1s;
+}
+
+a:hover {
+    color: brown;
+}
+
+div > img {
+    width: 300px;   
+}
+
+.geograph {
+    display: flex;
+}
+
+p::first-letter {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: green;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: red;
+}
+

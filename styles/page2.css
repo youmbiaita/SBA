@@ -1,0 +1,43 @@
+header {
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+.container {
+    text-align: center;
+}
+
+.container > h1 {
+    text-align: center;
+}
+nav {
+    background-color: green;
+    height: 50px;
+    margin-top: 0;   
+  }
+  nav > a {
+      color: white;
+      transition: width 2s;
+      transition-delay: 1s;
+  }
+  
+  a:hover {
+      color: brown;
+  }
+
+  
+
+table, th, td {
+    border: 2px solid black;
+    margin:auto;
+    border-collapse: collapse;
+    width: 400px; 
+    height: 100px;  
+  }
+
+  .tab{
+    margin: auto;
+    text-align: center;
+  }
+
