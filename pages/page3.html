@@ -11,14 +11,51 @@
 <body>
     <header>
         <img width="100%" src="../images/Camerron.jpg" alt="">
-        <nav class="nav fs-2">
-            <a class="nav-link active" aria-current="page" href="page1.html">Overview</a>
-            <a class="nav-link" href="page2.html">Description</a>
-            <a class="nav-link" href="page3.html">Travel Explorer</a>
+        <nav>
+            <a href="page1.html">Overview</a>
+            <a href="page2.html">Description</a>
+            <a href="page3.html">Travel Explorer</a>           
         </nav>
-        <h1>Travellers Activities</h1>
     </header>
-  
-    
+    <h2>Have questions or feedback? Contact us using the form below</h2>
+    <div class="container">
+        <section class="info">
+            <form>
+                <div class="mb-3">
+                  <label for="name" class="form-label">Your Name</label>
+                  <input type="name" class="form-control" id="name" >
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Your Email</label>
+                  <input type="email" class="form-control" id="email">
+                </div>
+                <div class="mb-3 form-check">
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" required></textarea><br>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+        </section> 
+        <section>
+            <div>
+                <video width="320" height="240" controls>
+                    <source src="../videoCamer.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>       
+        <section class="pi-info">
+            <h2>Connect with Us</h2>
+            <p>Follow us on social media:</p>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+            <img src="../images/explore.jpeg" width="100px" alt="">
+        </section>
+    </div>
+    <footer>
+        <p>copyright aitaculture@.edu</p>
+    </footer>    
 </body>
 </html>
