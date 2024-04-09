@@ -19,16 +19,18 @@ header {
 nav {
   background-color: green;
   height: 50px;
-  margin-top: 0;   
+  padding: 10px;
+  margin-bottom: 10px;
 }
 nav > a {
     color: white;
-    transition: width 2s;
-    transition-delay: 1s;
+    text-decoration: none;
 }
 
 a:hover {
-    color: brown;
+    text-decoration: underline;
+    color: rgb(29, 27, 24);
+    font-size: 25px;
 }
 
 div > img {
@@ -37,6 +39,14 @@ div > img {
 
 .geograph {
     display: flex;
+}
+
+#map {
+    transition-duration: 3s;
+}
+
+#map:hover {
+    transform: rotate(360deg);
 }
 
 p::first-letter {

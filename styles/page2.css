@@ -5,9 +5,15 @@ header {
    
 }
 
+header > img {
+    width: 100%;
+}
+
 .container {
+    color: white;
     text-align: center;
-    background-color: aqua;
+    background-color: rgb(7, 55, 55);
+    height: 100vh;
 }
 
 .container > h1 {
@@ -20,13 +26,43 @@ nav {
     margin-top: 0;   
   }
   nav > a {
-      color: white;
-      transition: width 2s;
-      transition-delay: 1s;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(29, 27, 24);
+    font-size: 25px;
+}
+
+  .tab {
+    margin: auto;
+    text-align: center;
   }
-  
-  a:hover {
-      color: brown;
+
+  .food {
+    display: flex;
+  }
+
+  img {
+    width: 150px;
+    height: 100px;
+  }
+
+  .anim {
+    background-color: red;
+    animation-name: colorChange;
+    animation-duration: 4s;
+    padding: 10px;
+  }
+
+  @keyframes colorChange {
+    0%   {background-color:green; left:0px; top:0px;}
+    25%  {background-color:red; left:200px; top:0px;}
+    50%  {background-color:yellow; left:200px; top:200px;}
+    75%  {background-color: green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
   }
 
   

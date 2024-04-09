@@ -10,14 +10,15 @@ nav {
     margin-top: 0;   
   }
   nav > a {
-      color: white;
-      transition: width 2s;
-      transition-delay: 1s;
-  }
-  
-  a:hover {
-      color: brown;
-  }
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(29, 27, 24);
+    font-size: 25px;
+}
 
 
 body {
@@ -36,12 +37,14 @@ body {
 .info {
     border:  1px solid black;
     padding: 20px;
+    background-color: azure;
 
 }
 
 .pi-info {
     border: 1px solid black;
     padding: 20px;
+    background-color: beige;
 }
 
 body > h2 {
