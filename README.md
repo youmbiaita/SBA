@@ -1,0 +1,1 @@
+<!-- This website is about a Country disvovery. It describes in miniaturea country located in central Africa. Here you will a brief orview of his geography, then some local dishes and finally a contact or feedback page, -->

@@ -38,17 +38,6 @@ table, th, td {
     width: 500px;  
   }
 
-  .tab{
-    margin: auto;
-    text-align: center;
-  }
-
-  .food {
-    display: flex;
-  }
-
-  img {
-    width: 150px;
-    height: 100px;
-  }
+ 
+  
 
